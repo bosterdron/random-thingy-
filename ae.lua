@@ -34,7 +34,6 @@ local Library = {
 	mobile = table.find({
 		Enum.Platform.IOS, 
 		Enum.Platform.Android
-    Enum.Platform.Windous
 	}, UserInputService:GetPlatform()),
 	disconnected = false :: boolean,
 	can_be_optimized = false :: boolean
